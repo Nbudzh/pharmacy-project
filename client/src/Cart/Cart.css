@@ -1,0 +1,79 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+
+   -webkit-appearance: "Always Show Up/Down Arrows";
+
+}
+
+
+.card-title{
+    text-align: left;
+
+}
+.card-text{
+    text-align: left;
+}
+.card{
+    padding: 3%;
+}
+.quantity-container{
+    display: flex;
+    justify-content: left;
+    padding: 15px;
+}
+.quantity-input{
+    max-width: 50px;
+    max-height: 20px;
+    justify-self: left;
+}
+.quantity-label{
+    justify-self: left;
+}
+.btn-container{
+    display: flex;
+    align-content:center;
+}
+.card-container{
+    display: flex;
+}
+.cart-row{
+    display: flex;
+    
+}
+.remove-btn{
+    align-self: center;
+    justify-self: right;
+}
+.quantity-container{
+    display: flex;
+    justify-content: left;
+}
+.cart-products{
+    border-radius: 10px;
+    background-color: var(--background-grey);
+    margin: 20px;
+    padding-bottom: 20px;
+   
+}
+.cart-form{
+    background-color: var(--background-grey);
+}
+.total-text{
+    color: grey;
+font-size: 15px;
+text-align: left;
+}
+.section-heading-container{
+    background-color: var(--section-heading-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    border-bottom: 1px solid black;
+
+}
+.section-heading{
+    color: var(--section-heading-text-color);
+    text-align: left;
+    font-size: 35px;
+}
+

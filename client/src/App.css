@@ -1,5 +1,19 @@
+
+:root{
+  --section-heading-color: #99c2ff;
+  --section-heading-text-color:white;
+  --border-color:rgba(94, 94, 94, 0.314);
+  --background-grey: white;
+}
+.App{
+  text-align:center;
+ display:flex;
+ flex-direction:column;
+   min-height:100vh;
+}
 .App {
   text-align: center;
+  background-color: rgba(251, 249, 249, 0.977);
 }
 
 .App-logo {

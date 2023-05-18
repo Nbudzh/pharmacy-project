@@ -1,0 +1,11 @@
+.price-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card-text{
+    align-self: center;
+}
+.disabled-button{
+    background-color: grey;
+}

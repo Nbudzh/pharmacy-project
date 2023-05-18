@@ -1,0 +1,41 @@
+.header-navigation{
+    background-color: var(--section-heading-color);
+    max-width: 100vw;
+    
+}
+.border-container{
+    border-bottom: 2px solid var(--border-color);
+    max-width: 100vw;
+}
+.nav-link , .navbar-brand{
+    color: var(--section-heading-text-color);
+}
+.top-nav-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+    color: var(--section-heading-text-color);
+}
+.top-nav-text-category{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+}
+.cart-link{
+    font-size: 2vw;
+}
+.cart-num{
+    background-color: orange;
+    border-radius: 100%;
+    width: 20px;
+    height: 15%;
+    position: relative;
+    left: 55%;
+    font-size: 15px;
+    
+
+}
+.nav-link{
+    font-size: 1.5vw;
+}
+.navigation-container{
+    max-width: 100vw;
+}

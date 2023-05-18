@@ -1,0 +1,32 @@
+.banner-row{
+    display: flex;
+    justify-content: center;
+   
+}
+.banner-col{
+    height: 5%;
+    display: flex;
+    justify-content: center;
+}
+.pharm-heading{
+    display: flex;
+    justify-content: center;
+}
+.latest-products{
+display: flex;
+justify-content: center;
+}
+.display-1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    
+}
+.latest-section-heading{
+    background-color: var(--section-heading-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.latest-products-container{
+    background-color: var(--background-grey);
+    border: 2px solid var(--border-color);
+}

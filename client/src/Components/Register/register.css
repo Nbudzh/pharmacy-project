@@ -1,0 +1,18 @@
+.register-col{
+    background-color: #f2f2f2;
+    
+}
+.register-form{
+    padding: 15px;
+
+}
+label{
+    color: black;
+}
+h3{
+    color: black;
+}
+.mb-3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}

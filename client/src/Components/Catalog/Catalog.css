@@ -1,0 +1,9 @@
+.products-container{
+    background-color: var(--background-grey);
+    border: 1px solid var(--section-heading-color);
+    border-radius: 10px;
+}
+.section-heading-container{
+    background-color: var(--section-heading-color);
+    
+}
