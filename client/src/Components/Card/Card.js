@@ -16,12 +16,12 @@ function onDetailsClick(){
   if(lastLocation==="products"){
     navigate(`${supplement.category}/${supplement._id}`)
     
-  }else if(window.location.href==="https://pharm-server.onrender.com"){
+  }else if(lastLocation===""){
     navigate(`products/${supplement.category}/${supplement._id}`)
   }
   else{
     navigate(`${supplement._id}`)
-    console.log(window.location.href)
+   
   }
 
   

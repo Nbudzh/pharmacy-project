@@ -55,7 +55,7 @@ export function ProductsProvider(
            const response = await fetch("https://pharm-server.onrender.com/data/beauty")
            
             if(!response.ok){
-                console.log(`zdr`)
+                
                 
                const profile = await fetch("https://pharm-server.onrender.com/users/register",{
                     method:"POST",
@@ -85,16 +85,17 @@ export function ProductsProvider(
                         body:JSON.stringify(product)
                     }
                     )
-                    if(product.category==="supplements"){
-                        setSupplements(state=>[...state,product])
-                    }else if(product.category==="beauty"){
-                        setBeauty(state=>[...state,product])
-                    }else if(product.category==="pharmaceuticals"){
-                        setPharmaceuticals(state=>[...state,product])
+                    const newProduct = await prod.json()
+                    if(newProduct.category==="supplements"){
+                        setSupplements(state=>[...state,newProduct])
+                    }else if(newProduct.category==="beauty"){
+                        setBeauty(state=>[...state,newProduct])
+                    }else if(newProduct.category==="pharmaceuticals"){
+                        setPharmaceuticals(state=>[...state,newProduct])
                     }
                 })
                 
-                await userRequest.logout()
+               
                 
             }else{
                 return
